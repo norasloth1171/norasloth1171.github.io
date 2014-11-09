@@ -8,6 +8,8 @@ header{
   width:960px;
   margin-left:20px;
   float:none;
+  margin: auto;
+  clear:both;
 }
 
 header ul{
@@ -90,12 +92,19 @@ background: linear-gradient(to bottom,  #ff670f 0%,#ff670f 100%); /* W3C */
 /*以下是hw1-3*/
 section2{
   width: 960px;
-  margin:1em auto;
+  margin: 0 auto;
   padding:1em auto;
+}
+section2 div{
+  margin-right:12%;
+  margin-left:12%;
+  clear:both;
 }
 
 section2 h3, section2 ul, .cover{
   float: left;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 section2 h3{
